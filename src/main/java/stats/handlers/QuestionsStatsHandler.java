@@ -1,4 +1,4 @@
-package stats.data;
+package stats.handlers;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;

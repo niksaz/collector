@@ -1,6 +1,6 @@
 package stats;
 
-import stats.data.StatsHandler;
+import stats.handlers.StatsHandler;
 
 import java.io.*;
 import java.net.ServerSocket;

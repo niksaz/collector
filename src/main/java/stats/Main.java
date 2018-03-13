@@ -1,8 +1,8 @@
 package stats;
 
-import stats.data.ContextsStatsHandler;
-import stats.data.MarkedStatsHandler;
-import stats.data.QuestionsStatsHandler;
+import stats.handlers.ContextsStatsHandler;
+import stats.handlers.MarkedStatsHandler;
+import stats.handlers.QuestionsStatsHandler;
 
 import java.io.IOException;
 import java.nio.file.Files;
