@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Comparator;
 
-public class EmptyFileFinder {
+public class FreeFileFinder {
   public static int findFreeFileNumberInDirectory(Path directory) throws IOException {
     return Files.list(directory)
         .map(path -> Integer.parseInt(path.getFileName().toString()))
